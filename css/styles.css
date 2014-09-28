@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot?-us1mch');
+    src:url('fonts/icomoon.eot?#iefix-us1mch') format('embedded-opentype'),
+        url('fonts/icomoon.woff?-us1mch') format('woff'),
+        url('fonts/icomoon.ttf?-us1mch') format('truetype'),
+        url('fonts/icomoon.svg?-us1mch#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-location:before {
+    content: "\4c";
+}
+.icon-checkmark:before {
+    content: "\43";
+}
+.icon-dribbble:before {
+    content: "\e600";
+}
+.icon-html5:before {
+    content: "\48";
+}
+.icon-css3:before {
+    content: "\e601";
+}
+.icon-out:before {
+    content: "\4f";
+}
+.icon-in:before {
+    content: "\49";
+}
+.icon-user:before {
+    content: "\55";
+}
+.icon-dribbble2 {
+    content: "\44";
+}
+.icon-brightness-half:before {
+    content: "\62";
+}
+.icon-moon:before {
+    content: "\4d";
+}
+.icon-cloud:before {
+    content: "\e60a";
+}
+.icon-circle-half:before {
+    content: "\63";
+}
+.icon-globe:before {
+    content: "\47";
+}
+.icon-paperplane:before {
+    content: "\50";
+}
+.icon-compass:before {
+    content: "\31";
+}
+.icon-star:before {
+    content: "\32";
+}
+.icon-bolt:before {
+    content: "\33";
+}
+.icon-rocket:before {
+    content: "\34";
+}
+.icon-earth:before {
+    content: "\35";
+}
+.icon-arrow-right:before {
+    content: "\e613";
+}
+.icon-arrow-left:before {
+    content: "\36";
+}
+.icon-arrow-down:before {
+    content: "\37";
+}
+.icon-arrow-up:before {
+    content: "\38";
+}
+.icon-arrow-right2:before {
+    content: "\39";
+}
+.icon-arrow-left2:before {
+    content: "\2d";
+}
+.icon-arrow-down2:before {
+    content: "\3d";
+}
+.icon-twitter:before {
+    content: "\74";
+}
+.icon-facebook:before {
+    content: "\66";
+}
+.icon-instagram:before {
+    content: "\69";
+}
+
+
+html { 
+  background: url('http://dwallpaper.net/wp-content/uploads/2014/07/outer_space_wallpaper.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    margin: 0 auto;
+    left: 0;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Open-Sans',sans-serif;
+}
+
+.menu {
+    background: black url('http://s23.postimg.org/69eii4bm3/stardust.png') repeat left top;
+    left: -256px;
+    width: 256px;
+    height: 100%;
+    position: fixed;
+    opacity: 0.4;
+    top: 0px;
+}
+
+.menu ul {
+    border-top: 1px solid #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 45px;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: #bababa;
+}
+
+.menu li {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.icon-closed {
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.icon-menu {
+    color: #fff;
+    font-family: 'Open-Sans',sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    padding-top: 25px;
+    padding-left: 25px;
+    left: 256px;
+    margin: 0 auto;
+    left: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.icon-menu i {
+    margin-right: 5px;
+    height: 30px;
+}
+.image-container {
+    margin: 0 auto;
+    max-width: 400px;
+    max-height:500px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.space-monkey {
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+    transition: 4s ease-in-out;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.space-monkey:hover {
+    transform: rotate(360deg);
+}
+
+.button {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-left: 46px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 10px 9px;
+    width: 70%;
+    text-align: center;
+    font-weight: 300;
+}
+
+.icon-dribbble:before {
+content: "\e600";
+margin: 15px;
+margin-left: -10px;
+}
+
+span.icon-dribbble:hover {
+    color: #EA4C89;
+}
+
+a.dribbble-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.dribbble-link:hover {
+    color: #EA4C89;
+}
+
